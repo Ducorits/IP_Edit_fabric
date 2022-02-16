@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ip_edit",
+  "version": "${version}",
+
+  "name": "Immersive Portals Editor",
+  "description": "This mod is meant to help people make custom portals from the immersive portals mod.",
+  "authors": [
+    "Ducorits"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Ducorits/IP_Edit_fabric"
+  },
+
+  "license": "GNU 3",
+  "icon": "assets/ip_edit/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ducorits.ip.edit.IpEdit"
+    ]
+  },
+  "mixins": [
+    "ip_edit.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
