@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "net.ducorits.ip.edit.mixin.IpEditMixin"
+    "IpEditMixin"
   ],
   "injectors": {
     "defaultRequire": 1
